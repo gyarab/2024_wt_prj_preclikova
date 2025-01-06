@@ -5,3 +5,6 @@
 ## Odborný článek
 
 ## Wireframes
+![wireframe](https://github.com/gyarab/2024_wt_prj_preclikova/blob/main/wireframe.jpg?raw=true)
+
+
