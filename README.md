@@ -1,1 +1,7 @@
-# 2024_wt_prj_preclikova
+# Animace (Stop motion)
+
+*Autorka: Eliška Preclíková <eliska.preclikova.s@gyarab.cz>*
+
+## Odborný článek
+
+## Wireframes
