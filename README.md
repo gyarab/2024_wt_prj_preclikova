@@ -1,4 +1,4 @@
-# My library (Čtenářský deník) 
+# My library 
 
 *Autorka: Eliška Preclíková <eliska.preclikova.s@gyarab.cz>*
 
