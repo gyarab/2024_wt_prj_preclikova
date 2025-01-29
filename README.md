@@ -18,7 +18,7 @@ V detailu autora je jeho fotka a základní informace jméno, datum narození a 
 ![wireframe](https://github.com/user-attachments/assets/9d1772dd-4891-468d-8357-3d03aed5e056)
 
 ## DB schema
-![wireframe](https://github.com/gyarab/2024_wt_prj_preclikova/blob/main/mylibrary_dbschema1.png?raw=true)
+![wireframe](https://github.com/gyarab/2024_wt_prj_preclikova/blob/main/mylibrary_dbschema.png?raw=true)
 
 
 
