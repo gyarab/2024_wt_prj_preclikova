@@ -17,5 +17,7 @@ V detailu autora je jeho fotka a základní informace jméno, datum narození a 
 ## Wireframes
 ![wireframe](https://github.com/user-attachments/assets/9d1772dd-4891-468d-8357-3d03aed5e056)
 
+## DB schema
+
 
 
