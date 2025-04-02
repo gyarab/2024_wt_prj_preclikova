@@ -1,0 +1,20 @@
+- model: main.genre
+  pk: 1
+  fields:
+    name: Fantasy
+- model: main.genre
+  pk: 2
+  fields:
+    name: Sci-fi
+- model: main.genre
+  pk: 3
+  fields:
+    name: Young Adult
+- model: main.genre
+  pk: 4
+  fields:
+    name: Detektivní
+- model: main.genre
+  pk: 5
+  fields:
+    name: Thriller

@@ -1,0 +1,24 @@
+- model: main.author
+  pk: 1
+  fields:
+    name: J. K. Rowling
+    birth_year: 1965
+    description: ''
+- model: main.author
+  pk: 2
+  fields:
+    name: Sarah J. Mass
+    birth_year: 1986
+    description: ''
+- model: main.author
+  pk: 3
+  fields:
+    name: Marissa Meyer
+    birth_year: 1984
+    description: ''
+- model: main.author
+  pk: 4
+  fields:
+    name: Leigh Bardugo
+    birth_year: 1975
+    description: ''

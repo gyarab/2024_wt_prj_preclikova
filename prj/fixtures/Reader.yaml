@@ -1,0 +1,4 @@
+- model: main.reader
+  pk: 1
+  fields:
+    name: Eliška

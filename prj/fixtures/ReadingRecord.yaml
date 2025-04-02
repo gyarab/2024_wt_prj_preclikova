@@ -1,0 +1,22 @@
+- model: main.readingrecord
+  pk: 1
+  fields:
+    reader: 1
+    book: 1
+    date_add: 2025-04-01
+    state: C
+    date_start: 2025-03-18
+    date_end: 2025-04-30
+    text: ''
+    rating: 9
+- model: main.readingrecord
+  pk: 2
+  fields:
+    reader: 1
+    book: 4
+    date_add: 2025-04-02
+    state: A
+    date_start: null
+    date_end: null
+    text: ''
+    rating: null
