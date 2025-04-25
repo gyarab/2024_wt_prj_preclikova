@@ -1,7 +1,7 @@
 - model: main.book
   pk: 1
   fields:
-    name: Harry Potter a kámen mudrcù
+    name: Harry Potter a kÃ¡men mudrcÅ¯
     year: 1997
     description: ''
     author: 1
@@ -9,7 +9,7 @@
 - model: main.book
   pk: 2
   fields:
-    name: Harry Potter a ohnivý pohár
+    name: Harry Potter a ohnivÃ½ pohÃ¡r
     year: 2000
     description: ''
     author: 1
@@ -17,7 +17,7 @@
 - model: main.book
   pk: 3
   fields:
-    name: Renegáti
+    name: RenegÃ¡ti
     year: 2015
     description: ''
     author: 3
@@ -25,7 +25,7 @@
 - model: main.book
   pk: 4
   fields:
-    name: Šest vran
+    name: Å est vran
     year: 2015
     description: ''
     author: 4
@@ -33,7 +33,7 @@
 - model: main.book
   pk: 5
   fields:
-    name: Sklenìný trùn
+    name: SklenÄ›nÃ½ trÅ¯n
     year: 2012
     description: ''
     author: 2

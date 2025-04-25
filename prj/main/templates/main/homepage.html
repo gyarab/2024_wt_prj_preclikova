@@ -11,8 +11,7 @@
     </p>
 
     {% for book in books %}
-        <h2> {{book.title}} {{book.year}}</h2>
-
+        <h2> {{book.name}} {{book.year}}</h2>
         <h4>{{book.author.name}}</h4>
         <p>{{book.description}}</p>
     
