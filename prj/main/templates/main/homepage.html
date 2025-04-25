@@ -7,6 +7,18 @@
     <img alt="book image" src="https://i.pinimg.com/736x/5e/2e/4c/5e2e4cdcfe1ad36e248cc01dbf3e59c7.jpg" width="300" > 
 
     <p>
+        Dnes má svátek {{svatek}}
+    </p>
+
+    {% for book in books %}
+        <h2> {{book.title}} {{book.year}}</h2>
+
+        <h4>{{book.author.name}}</h4>
+        <p>{{book.description}}</p>
+    
+    {%endfor%}
+
+    <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, expedita exercitationem nesciunt nemo quod dicta totam suscipit deserunt rerum aut eaque. Modi excepturi voluptates voluptatem neque repellendus dolorum quae quo!
     </p>
 
