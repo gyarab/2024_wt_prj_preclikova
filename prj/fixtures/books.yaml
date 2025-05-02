@@ -1,0 +1,32 @@
+
+- model: main.book
+
+  pk: 1
+  fields:
+    name: Harry Potter a kámen mudrcù
+    year: 1997
+    description: ''
+    author: null
+    genre: null
+
+- model: main.book
+
+  pk: 2
+  fields:
+    name: Sklenìný trùn
+    year: 2012
+    description: ''
+    author: 1
+    genre: 1
+
+- model: main.book
+
+  pk: 3
+  fields:
+    name: Renegáti
+    year: 2017
+    description: sdcgfadsf
+    author: 1
+    genre: 1
+
+
