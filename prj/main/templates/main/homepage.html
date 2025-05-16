@@ -2,23 +2,22 @@
 
 {% block content %}
     <h1>
-        Homepage
+        Library
     </h1>
     <img alt="book image" src="https://i.pinimg.com/736x/5e/2e/4c/5e2e4cdcfe1ad36e248cc01dbf3e59c7.jpg" width="300" > 
 
-    <p>
-        Dnes má svátek {{svatek}}
-    </p>
-
     {% for book in books %}
-        <h2> {{book.name}} {{book.year}}</h2>
+        <h3> {{book.name}}</h2>
         <h4>{{book.author.name}}</h4>
+        <h4> {{book.year}}</h3>
+       
         <p>{{book.description}}</p>
-    
+        <button>libi</button>
     {%endfor%}
 
-    <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, expedita exercitationem nesciunt nemo quod dicta totam suscipit deserunt rerum aut eaque. Modi excepturi voluptates voluptatem neque repellendus dolorum quae quo!
-    </p>
-
+    {% for genre in movie.genres.all %}
+        <span class="badge bg-primary">{{genre.name}}</span>
+    {% endfor %}
+    
+    
 {% endblock %}

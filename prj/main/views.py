@@ -5,13 +5,13 @@ from main.models import Book
 # Create your views here.
 
 def get_homepage(request): 
-    books = Book.objects.all().order_by("title")
+    books = Book.objects.all().order_by("name")
 
- #   context = "svatek":"Libor",
+    context = {  
 
         #SELECT * from Books;
- #       "books": Book.objects.all()
-   # }
+        "books": Book.objects.all(),
+    }
 
  #   print("HOST", request.get_host())
  #   print("URL", request.path)
@@ -22,6 +22,6 @@ def get_homepage(request):
         print("SEARCH", request.GET.get("search"))
 
     return render(
-        request, "main/homepage.html"
+        request, "main/homepage.html", context
         )
    
