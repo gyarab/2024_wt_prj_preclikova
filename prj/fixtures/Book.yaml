@@ -6,6 +6,7 @@
     description: ''
     author: 1
     genre: 1
+    main_picture: https://images.booksense.com/images/700/596/9781338596700.jpg
 - model: main.book
   pk: 2
   fields:
@@ -22,6 +23,7 @@
     description: ''
     author: 3
     genre: null
+    main_picture: https://images.booksense.com/images/700/596/9781338596700.jpg
 - model: main.book
   pk: 4
   fields:

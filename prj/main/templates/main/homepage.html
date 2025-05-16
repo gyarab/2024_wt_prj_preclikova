@@ -1,23 +1,43 @@
 {% extends 'main/base.html' %}
 
 {% block content %}
-    <h1>
-        Library
-    </h1>
-    <img alt="book image" src="https://i.pinimg.com/736x/5e/2e/4c/5e2e4cdcfe1ad36e248cc01dbf3e59c7.jpg" width="300" > 
 
-    {% for book in books %}
-        <h3> {{book.name}}</h2>
-        <h4>{{book.author.name}}</h4>
-        <h4> {{book.year}}</h3>
-       
-        <p>{{book.description}}</p>
-        <button>libi</button>
-    {%endfor%}
+    <div class="row">
+        <form method="get" action="./">
+        <div class="input-group mb-3">
+            <input
+            type="text"
+            name="search"
+            value="{{ request.GET.search }}"
+            class="form-control"
+            placeholder="..."
+            aria-label="Hledat"
+            aria-describedby="button-addon2"
+            >
+            <button class="btn btn-outline-success" type="submit" id="button-addon2">Hledat</button>
+        </div>
+        </form>
+</div>
+{% for book in books %}
+    <div class="card border-success text-bg-light mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img class="img-fluid rounded-start" src="{% if Book.main_picture %}{{Book.main_picture}}{% else %}//place-hold.it/600x900/{% endif %}" alt="Book image">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">{{book.name}}</h5>
+                    <h6>{{book.author.name}}</h6>
+                    <h6> {{book.year}}</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
 
-    {% for genre in movie.genres.all %}
-        <span class="badge bg-primary">{{genre.name}}</span>
-    {% endfor %}
-    
-    
+                    <button>Like</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+{%endfor%}
+
 {% endblock %}
+
