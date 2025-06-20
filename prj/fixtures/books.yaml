@@ -29,5 +29,11 @@
     description: sdcgfadsf
     author: 1
     genre: 1
+    main_picture: https://images.booksense.com/images/700/596/9781338596700.jpg
+
+- model: main.book
+
+
+
 
 

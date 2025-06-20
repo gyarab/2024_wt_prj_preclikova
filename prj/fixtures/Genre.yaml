@@ -17,4 +17,52 @@
 - model: main.genre
   pk: 5
   fields:
+    name: Romantický
+- model: main.genre
+  pk: 6
+  fields:
+    name: Historický
+- model: main.genre
+  pk: 7
+  fields:
     name: Thriller
+- model: main.genre
+  pk: 8
+  fields:
+    name: Dětský
+- model: main.genre
+  pk: 9
+  fields:
+    name: Klasika
+- model: main.genre
+  pk: 10
+  fields:
+    name: Poezie
+- model: main.genre
+  pk: 11
+  fields:
+    name: Drama
+- model: main.genre
+  pk: 12
+  fields:
+    name: Biografie
+- model: main.genre
+  pk: 13
+  fields:
+    name: Historie
+- model: main.genre
+  pk: 14
+  fields:
+    name: Fantasy Young Adult
+- model: main.genre
+  pk: 15
+  fields:
+    name: Sci-fi Young Adult
+- model: main.genre
+  pk: 16
+  fields:
+    name: Romantický Young Adult
+- model: main.genre
+
+
+
