@@ -2,6 +2,8 @@
 
 *Autorka: Eliška Preclíková <eliska.preclikova.s@gyarab.cz>*
 
+*Odkaz na webovou stránku*
+
 ## Odborný článek
 My library je webová aplikace přístupná na odkaz. 
 
